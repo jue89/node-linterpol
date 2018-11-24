@@ -1,0 +1,39 @@
+{
+  "name": "linterpol",
+  "version": "0.0.0",
+  "description": "Linear interpolation",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && jest --verbose",
+    "watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jue89/node-linterpol.git"
+  },
+  "keywords": [],
+  "author": "Juergen Fitschen <me@jue.yt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jue89/node-linterpol/issues"
+  },
+  "homepage": "https://github.com/jue89/node-linterpol#readme",
+  "devDependencies": {
+    "happiness": "^10.0.2",
+    "jest": "^23.1.0"
+  },
+  "happiness": {
+    "globals": [
+      "jest",
+      "describe",
+      "test",
+      "expect",
+      "beforeEach"
+    ]
+  },
+  "jest": {
+    "automock": false,
+    "clearMocks": true
+  },
+  "dependencies": {}
+}
